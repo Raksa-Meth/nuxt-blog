@@ -6,8 +6,6 @@
 
 <script setup lang="ts">
 
-const colorMode = useColorMode();
-colorMode.preference = "dark";
 
 definePageMeta({
     middleware:'home-middleware',

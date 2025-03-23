@@ -5,6 +5,7 @@
       <div><NuxtLink to="/">Home</NuxtLink></div>
       <div><NuxtLink to="/about">About</NuxtLink></div>
       <div> <NuxtLink to="/projects">Projects</NuxtLink></div>
+      <div> <NuxtLink to="/blog">Blogs</NuxtLink></div>
     </div>
     <ClientOnly>
       <div :class="['w-16  rounded-full p-1 border',colorMode.preference == 'dark'? 'bg-slate-700 border-slate-500':'bg-orange-100 border-orange-500']">
